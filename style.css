@@ -13,7 +13,8 @@ header {
 }
 
 main {
-    margin: 100px 300px;
+    margin: 100px auto;
+    max-width: 600px;
 }
 
 
@@ -73,7 +74,11 @@ span {
 
 }
 
-@media (mx-width: 730px) {
+@media (max-width: 730px) {
     .width-100 {
             width: 100%;
     }
+    .wrapper {
+        flex-direction: column;
+    }
+}
