@@ -39,6 +39,10 @@ li {
 
 a {
     text-decoration: none;
+    
+}
+a:hover {
+    color:rgb(96, 96, 145);
 }
 
 
@@ -68,3 +72,8 @@ span {
     font-style: normal;
 
 }
+
+@media (mx-width: 730px) {
+    .width-100 {
+            width: 100%;
+    }
